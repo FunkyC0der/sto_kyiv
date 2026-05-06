@@ -1,0 +1,35 @@
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 40px;
+  height: 72px;
+  background: rgba(10,10,11,0.85);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+@media (max-width: 767px) { nav { padding: 0 20px; height: 60px; } }
+
+.nav-logo img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 767px) { .nav-logo img { height: 38px; } }
+
+.nav-cta {
+  display: flex; gap: 8px; align-items: center;
+}
+.nav-phone { display: none; }
+.nav-icon-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px;
+  color: #fff; text-decoration: none; flex-shrink: 0;
+  transition: filter .15s, transform .1s;
+}
+.nav-icon-btn:hover { filter: brightness(1.2); transform: translateY(-1px); }
+.nav-icon-btn:active { transform: scale(.93); }
+@media (max-width: 600px) {
+  .nav-btn { padding: 9px 12px; font-size: 12px; }
+  .nav-btn-text { display: none; }
+}

@@ -1,0 +1,15 @@
+{
+  "gaId": "G-15X3MBJSBH",
+  "gaEvents": {
+    "contactClick": "contact_click",
+    "contactMethod": "contact_method",
+    "clickLocation": "click_location"
+  },
+  "phone": "+380686002626",
+  "phoneDisplay": "+380 68 600 26 26",
+  "instagram": "https://www.instagram.com/promp.kyiv/",
+  "telegram": "https://t.me/+380686002626",
+  "viber": "viber://chat?number=+380686002626",
+  "whatsapp": "https://wa.me/+380686002626",
+  "call": "tel:+380686002626"
+}

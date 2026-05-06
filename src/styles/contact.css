@@ -1,0 +1,32 @@
+#contact {
+  background: var(--bg);
+  position: relative; overflow: hidden;
+  width: 100%;
+}
+.contact-glow {
+  position: absolute;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(21,101,192,.12) 0%, transparent 70%);
+  left: 50%; top: 50%; transform: translate(-50%,-50%);
+  pointer-events: none;
+}
+.contact-inner {
+  position: relative; z-index: 2;
+  text-align: left; max-width: 700px;
+}
+.contact-inner h2 { font-size: clamp(44px, 6vw, 80px); margin-bottom: 16px; }
+.contact-inner .lead { margin: 0 0 48px; text-align: left; max-width: 500px; }
+.contact-tiles {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 24px;
+  max-width: 800px;
+}
+@media (max-width: 860px) {
+  .contact-tiles { grid-template-columns: repeat(3, 1fr); max-width: 100%; }
+}
+@media (max-width: 560px) {
+  .contact-tiles { grid-template-columns: repeat(2, 1fr); }
+}

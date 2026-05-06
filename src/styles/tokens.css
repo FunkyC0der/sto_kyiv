@@ -1,0 +1,20 @@
+:root {
+  --black:   #0a0a0b;
+  --bg:      #0e0e10;
+  --bg2:     #121214;
+  --bg3:     #161618;
+  --card:    #111113;
+  --border:  rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text:    #f2f2f2;
+  --muted:   #888892;
+  --muted2:  #5a5a65;
+  --blue:    #1565c0;
+  --blue2:   #1976d2;
+  --blue-b:  #2979ff;
+  --blue-g:  linear-gradient(135deg, #1565c0 0%, #2979ff 100%);
+  --chrome:  linear-gradient(135deg, #8a9bb0 0%, #c8d4e0 40%, #8a9bb0 70%, #b0bcc8 100%);
+  --tg:      #229ED9;
+  --call:    #c62828;
+  --viber:   #6a1b9a;
+}
