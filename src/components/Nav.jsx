@@ -14,7 +14,7 @@ export default function Nav() {
   return (
     <nav>
       <a href="#" className="nav-logo">
-        <img src="/uploads/logo.png" alt="Pro.Mp.Kyiv" />
+        <img src="/uploads/logo-no-bg.png" alt="Pro.Mp.Kyiv" />
       </a>
       <div className="nav-cta">
         {BUTTONS.map((b, i) => (

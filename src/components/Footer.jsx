@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">
-              <img src="/uploads/logo.png" alt="Pro.Mp.Kyiv" />
+              <img src="/uploads/logo-no-bg.png" alt="Pro.Mp.Kyiv" />
             </div>
             <p className="footer-tagline">Агрегатор перевірених СТО у Києві — ТО, кузовний та малярний ремонт</p>
           </div>
